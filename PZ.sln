@@ -1,11 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37216.2 d17.14
+VisualStudioVersion = 17.14.37216.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ1", "PZ1\PZ1.csproj", "{F412939E-80BF-495D-B59C-809979951386}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PZ1Task1", "PZ1Task1\PZ1Task1.vcxproj", "{AE139184-DD62-4D5C-BCBB-FCC684C40558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PZ2", "PZ2", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz2", "Pz2\Pz2.csproj", "{C6EB5595-EEAD-4166-A451-98017B6230AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PZ2Task1", "PZ2Task1\PZ2Task1.vcxproj", "{8D1C5C07-3542-44E4-B9C4-848EB61FB868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nestedandchildtasks", "Nestedandchildtasks\Nestedandchildtasks.csproj", "{AF06EE9C-E305-488E-BE5F-907A5AC505F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synchronizingresourceaccess", "Synchronizingresourceaccess\Synchronizingresourceaccess.csproj", "{4DEB8DDF-7838-491F-A212-70161C9E4818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threadssync", "Threadssync\Threadssync.csproj", "{562A4FA1-FA2B-4CEC-A0FA-24CA4C213425}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +33,36 @@ Global
 		{AE139184-DD62-4D5C-BCBB-FCC684C40558}.Debug|Any CPU.Build.0 = Debug|x64
 		{AE139184-DD62-4D5C-BCBB-FCC684C40558}.Release|Any CPU.ActiveCfg = Release|x64
 		{AE139184-DD62-4D5C-BCBB-FCC684C40558}.Release|Any CPU.Build.0 = Release|x64
+		{C6EB5595-EEAD-4166-A451-98017B6230AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EB5595-EEAD-4166-A451-98017B6230AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EB5595-EEAD-4166-A451-98017B6230AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EB5595-EEAD-4166-A451-98017B6230AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1C5C07-3542-44E4-B9C4-848EB61FB868}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{8D1C5C07-3542-44E4-B9C4-848EB61FB868}.Debug|Any CPU.Build.0 = Debug|x64
+		{8D1C5C07-3542-44E4-B9C4-848EB61FB868}.Release|Any CPU.ActiveCfg = Release|x64
+		{8D1C5C07-3542-44E4-B9C4-848EB61FB868}.Release|Any CPU.Build.0 = Release|x64
+		{AF06EE9C-E305-488E-BE5F-907A5AC505F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF06EE9C-E305-488E-BE5F-907A5AC505F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF06EE9C-E305-488E-BE5F-907A5AC505F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF06EE9C-E305-488E-BE5F-907A5AC505F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEB8DDF-7838-491F-A212-70161C9E4818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEB8DDF-7838-491F-A212-70161C9E4818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEB8DDF-7838-491F-A212-70161C9E4818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEB8DDF-7838-491F-A212-70161C9E4818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562A4FA1-FA2B-4CEC-A0FA-24CA4C213425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562A4FA1-FA2B-4CEC-A0FA-24CA4C213425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562A4FA1-FA2B-4CEC-A0FA-24CA4C213425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562A4FA1-FA2B-4CEC-A0FA-24CA4C213425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6EB5595-EEAD-4166-A451-98017B6230AD} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{8D1C5C07-3542-44E4-B9C4-848EB61FB868} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{AF06EE9C-E305-488E-BE5F-907A5AC505F8} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{4DEB8DDF-7838-491F-A212-70161C9E4818} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{562A4FA1-FA2B-4CEC-A0FA-24CA4C213425} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D1F34A7A-E71B-442D-ADE9-D3C1FFE481CD}

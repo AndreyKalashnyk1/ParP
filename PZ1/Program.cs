@@ -53,7 +53,7 @@ namespace PZ1_Tasks
             taskA.Start();
             Task taskB = Task.Factory.StartNew(MethodB);
             Task taskC = Task.Run(new Action(MethodC));
-            WriteLine($"{timer.ElapsedMilliseconds:#,##0}ms elapsed.");
+            WriteLine($"{timer.Elapsed.TotalMilliseconds:0.000}ms elapsed.");
             WriteLine("Press ENTER to end.");
             ReadLine();
         }
