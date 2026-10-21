@@ -13,11 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pz2", "Pz2\Pz2.csproj", "{C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PZ2Task1", "PZ2Task1\PZ2Task1.vcxproj", "{8D1C5C07-3542-44E4-B9C4-848EB61FB868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nestedandchildtasks", "Nestedandchildtasks\Nestedandchildtasks.csproj", "{AF06EE9C-E305-488E-BE5F-907A5AC505F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedAndChildTasks", "NestedAndChildTasks\NestedAndChildTasks.csproj", "{AF06EE9C-E305-488E-BE5F-907A5AC505F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Synchronizingresourceaccess", "Synchronizingresourceaccess\Synchronizingresourceaccess.csproj", "{4DEB8DDF-7838-491F-A212-70161C9E4818}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizingResourceAccess", "SynchronizingResourceAccess\SynchronizingResourceAccess.csproj", "{4DEB8DDF-7838-491F-A212-70161C9E4818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threadssync", "Threadssync\Threadssync.csproj", "{562A4FA1-FA2B-4CEC-A0FA-24CA4C213425}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsSync", "ThreadsSync\ThreadsSync.csproj", "{562A4FA1-FA2B-4CEC-A0FA-24CA4C213425}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
